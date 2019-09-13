@@ -26,6 +26,9 @@ kotlin {
                 )
                 archiveFileName = "url-extractor.js".toString()
             }
+            webpackTask {
+                archiveFileName = 'url-extractor.js'
+            }
         }
     }
 
