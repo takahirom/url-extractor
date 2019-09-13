@@ -18,7 +18,7 @@ fun apply() {
     document.getElementById("extracted")?.innerHTML = buildString {
         val extracted = getInput().value.split("?")
             .map { it.split("&") } ?: return
-        append("■ hostname" + "\n")
+        append("■ protocol, hostname, path" + "\n")
         append(extracted[0][0] + "\n")
         append("----------\n")
         append("■ parameters" + "\n")
