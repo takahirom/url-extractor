@@ -2,7 +2,7 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="false" externalProjectId="extract-url">
+      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="false" externalProjectId="extract-url" pureKotlinSourceFolders="$MODULE_DIR$/../../src/test/kotlin;/Users/a14901/git/extract-url/src/main/kotlin">
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
         <compilerArguments>

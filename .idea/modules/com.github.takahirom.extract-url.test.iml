@@ -2,11 +2,12 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="extract-url">
+      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" externalProjectId="extract-url" pureKotlinSourceFolders="$MODULE_DIR$/../../src/test/kotlin;/Users/a14901/git/extract-url/src/main/kotlin">
         <sourceSets>
           <sourceSet>com.github.takahirom.extract-url.main</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>browserTest|extract-url:test|Js</externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
           <option name="outputFile" value="$MODULE_DIR$/../../build/js/packages/extract-url-test/kotlin/extract-url-test.js" />
