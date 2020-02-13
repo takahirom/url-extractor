@@ -28,6 +28,7 @@ kotlin {
             }
             webpackTask {
                 archiveFileName = 'url-extractor.js'
+                destinationDirectory = file("docs")
             }
         }
     }
